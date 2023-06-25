@@ -3,7 +3,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-public class PostgreSQLConnectionLocalhost {
+public class PostgresSQLConnectionLocalhost {
 
     private static final String URL = "jdbc:postgresql://localhost:5432/test";
     private static final String USERNAME = "postgres";

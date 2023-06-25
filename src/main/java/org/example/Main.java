@@ -1,14 +1,14 @@
 package org.example;
 
 
-import org.example.controller.PostgreSQLConnectionLocalhost;
+import org.example.controller.PostgresSQLConnectionLocalhost;
 
 import java.sql.Connection;
 import java.sql.SQLException;
 
 public class Main {
     public static void main(String[] args) {
-        Connection connection = PostgreSQLConnectionLocalhost.getConnection();
+        Connection connection = PostgresSQLConnectionLocalhost.getConnection();
 
         // Використовуйте з'єднання для виконання запитів та роботи з базою даних
         // ...
