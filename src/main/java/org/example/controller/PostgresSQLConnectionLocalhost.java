@@ -9,7 +9,7 @@ public class PostgresSQLConnectionLocalhost {
     private static final String USERNAME = "postgres";
     private static final String PASSWORD = "admin";
 
-    public static Connection getConnection() {
+    public static Connection getConnectionLocalhost() {
         Connection connection = null;
         try {
             connection = DriverManager.getConnection(URL, USERNAME, PASSWORD);

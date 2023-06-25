@@ -18,7 +18,7 @@ public class Main {
 
 
         /*
-        Connection connection = PostgresSQLConnectionLocalhost.getConnection();
+        Connection connection = PostgresSQLConnectionLocalhost.getConnectionLocalhost();
 
         // Використовуйте з'єднання для виконання запитів та роботи з базою даних
         // ...
