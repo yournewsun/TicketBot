@@ -47,4 +47,17 @@ public class Seat {
     public void setSeatStatus(SeatStatus seatStatus) {
         this.seatStatus = seatStatus;
     }
+
+    // ---------- constructor
+
+    public Seat() {
+    }
+
+    public Seat(int seatId, int seatRow, int seatNumber, int ticketPrice, SeatStatus seatStatus) {
+        this.seatId = seatId;
+        this.seatRow = seatRow;
+        this.seatNumber = seatNumber;
+        this.ticketPrice = ticketPrice;
+        this.seatStatus = seatStatus;
+    }
 }

@@ -29,4 +29,13 @@ public class Customer {
     public void setCustomerContactInfo(String customerContactInfo) {
         this.customerContactInfo = customerContactInfo;
     }
+
+    // ---------- constructor
+    public Customer(){}
+
+    public Customer(int customerId, String customerName, String customerContactInfo){
+        this.customerId = customerId;
+        this.customerName = customerName;
+        this.customerContactInfo = customerContactInfo;
+    }
 }

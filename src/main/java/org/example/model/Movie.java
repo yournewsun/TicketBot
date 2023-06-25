@@ -58,4 +58,18 @@ public class Movie {
     public void setShowtimeList(ArrayList<Showtime> showtimeList) {
         this.showtimeList = showtimeList;
     }
+
+    // ---------- constructor
+
+    public Movie() {
+    }
+
+    public Movie(int movieId, String movieTitle, int movieDuration, String movieGenre, String movieDirector, ArrayList<Showtime> showtimeList) {
+        this.movieId = movieId;
+        this.movieTitle = movieTitle;
+        this.movieDuration = movieDuration;
+        this.movieGenre = movieGenre;
+        this.movieDirector = movieDirector;
+        this.showtimeList = showtimeList;
+    }
 }

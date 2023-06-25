@@ -49,4 +49,14 @@ public class Cinema {
     public void setHallList(ArrayList<Hall> hallList) {
         this.hallList = hallList;
     }
+
+    // ---------- constructor
+    public Cinema(){}
+    public Cinema(int cinemaId, String cinemaName, String cinemaAddress, ArrayList<Movie> movieList, ArrayList<Hall> hallList){
+        this.cinemaId = cinemaId;
+        this.cinemaName = cinemaName;
+        this.cinemaAddress = cinemaAddress;
+        this.movieList = movieList;
+        this.hallList = hallList;
+    }
 }

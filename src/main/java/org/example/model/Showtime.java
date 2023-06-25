@@ -41,4 +41,16 @@ public class Showtime {
     public void setAvailableSeats(ArrayList<Seat> availableSeats) {
         this.availableSeats = availableSeats;
     }
+
+    // ---------- constructor
+
+    public Showtime() {
+    }
+
+    public Showtime(int showtimeId, Movie movie, Date startTime, ArrayList<Seat> availableSeats) {
+        this.showtimeId = showtimeId;
+        this.movie = movie;
+        this.startTime = startTime;
+        this.availableSeats = availableSeats;
+    }
 }

@@ -47,4 +47,17 @@ public class Ticket {
     public void setPaymentStatus(PaymentStatus paymentStatus) {
         this.paymentStatus = paymentStatus;
     }
+
+    // ---------- constructor
+
+    public Ticket() {
+    }
+
+    public Ticket(int ticketId, Showtime showtime, Seat seat, int price, PaymentStatus paymentStatus) {
+        this.ticketId = ticketId;
+        this.showtime = showtime;
+        this.seat = seat;
+        this.price = price;
+        this.paymentStatus = paymentStatus;
+    }
 }
