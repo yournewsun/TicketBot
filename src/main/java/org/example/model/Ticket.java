@@ -7,6 +7,7 @@ public class Ticket {
     private int price;
     private PaymentStatus paymentStatus;
 
+    // ---------- getters and setters
     public int getTicketId() {
         return ticketId;
     }

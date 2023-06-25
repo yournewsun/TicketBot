@@ -9,6 +9,7 @@ public class Showtime {
     private Date startTime;
     private ArrayList<Seat> availableSeats;
 
+    // ---------- getters and setters
     public int getShowtimeId() {
         return showtimeId;
     }

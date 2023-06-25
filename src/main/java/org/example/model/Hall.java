@@ -6,6 +6,7 @@ public class Hall {
     private int hallRow;
     private int hallNumberSeat;
 
+    // ---------- getters and setters
     public int getHallId() {
         return HallId;
     }

@@ -5,6 +5,7 @@ public class Customer {
     private String customerName;
     private String customerContactInfo;
 
+    // ---------- getters and setters
     public int getCustomerId() {
         return customerId;
     }

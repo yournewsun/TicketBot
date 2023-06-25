@@ -7,6 +7,7 @@ public class Seat {
     private int ticketPrice;
     private SeatStatus seatStatus;
 
+    // ---------- getters and setters
     public int getSeatId() {
         return seatId;
     }

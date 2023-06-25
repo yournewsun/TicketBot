@@ -10,6 +10,7 @@ public class Movie {
     private String movieDirector;
     private ArrayList <Showtime> showtimeList;
 
+    // ---------- getters and setters
     public int getMovieId() {
         return movieId;
     }

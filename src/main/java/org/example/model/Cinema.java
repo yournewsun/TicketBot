@@ -9,6 +9,7 @@ public class Cinema {
     private ArrayList<Movie> movieList;
     private ArrayList<Hall> hallList;
 
+    // ---------- getters and setters
     public int getCinemaId() {
         return cinemaId;
     }
